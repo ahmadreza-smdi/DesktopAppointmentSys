@@ -1,4 +1,4 @@
-#Contributing guide
-##Under Construction
+# Contributing guide
+## Under Construction
 
 For more info, visit [README](README.md).
