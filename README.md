@@ -7,7 +7,7 @@ This project represents the appointment system database implementation for the
 The contributors to this project are as listed.
 
 * **Ahmadreza Samadi** – *Administrator* – [email](mailto:samadi@example.com) – [Gitlab repo](@ahmadreza.smdi)
-* **Vahid Saadat Nejad** – *Developer* – [email](mailto:saadat@example.com) – [Gitlab repo](@vahidsa)
+* **Vahid Saadat Nejad** – *Developer* – [email](mailto:vahidsanejad@gmail.com) – [Gitlab repo](@vahidsa)
 * **Nozhan Amiri** – *Developer* – [email](mailto:nozhana@gmail.com) – [Gitlab repo](@nozhana)
 
 The Project advisor is **Professor Ahmad Yoosofan**. – [email](yoosofan@kashanu.ac.ir) – [Gitlab repo](@usofan)
