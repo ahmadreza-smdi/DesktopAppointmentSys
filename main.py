@@ -56,7 +56,6 @@ def del_patient():
 def update_patient():
     up_id = input("Enter the id that you like to update:")
     up_field =input ("What do you want to update ?").lower()
-    a = []
     a = cur.execute(("SELECT '%s' FROM patient WHERE id = '%s'")%(del_id,up_field))
     print("The last value of that was {}".format(a))
     b = input("enter the new value:")
