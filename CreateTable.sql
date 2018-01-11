@@ -33,7 +33,7 @@ create table insurance (
 	insurance_id varchar[15],
 	id varchar[15] not null,
 	primary key (insurance_id),
-	foreign_key (id) references patient(id)
+	foreign key (id) references patient(id)
 );
 
 create table prescription (
