@@ -34,6 +34,7 @@ and insurance_type = 'tamin ejtemaee' group by id
 
 select insurance_type from patient join insurance on id where special_disease = 'cancer'
 
+
 /* NOZHAN */
 
 -- 8: Prescription text for patient whose appointment number is 12345
@@ -72,3 +73,40 @@ WHERE EXISTS(SELECT null
               FROM appointment a
               WHERE a.id = p.id)
       AND p.special_disease = 'Diabetes'
+      
+=======
+
+/* Vahid */
+
+--15
+/*توصیه دکتر به بیمار با شماره ویزیت 110*/
+SELECT advised FROM advice WHERE id='110'
+
+--16
+/*نوع بیمه‌ی بیمار 'محمد' با شماره ویزیت '17' و تاریخ مراجعه‌ی 2018/08/17*/
+SELECT insurance_type FROM insurance join patient using id join appointment on id
+where fname='محمد' and appointment_time='20180817'
+
+--17
+/*نوع بیمه‌ی بیمارانی که هزینه نداده‌اند*/
+SELECT insurance_type FROM insurance join appointment on id
+WHERE payment_roll = 'null'
+
+--18
+/*توصیه‌های دکتر به بیماران با بیماری خاص اچ‌آی‌وی*/
+SELECT advised FROM advice join patient on id
+WHERE special_disease = 'HIV'
+
+--19
+/*نسخه، توصیه و موارد ممنوع بیمار با شماره عضویت 45681 و شماره ویزیت 13*/
+SELECT prescription and advised and forbidden FROM prescription join advise using id join patient on id
+WHERE id='45681' and visit_number='13'
+
+--20
+/*شماره تماس بیمار با شماره ویزیت 93 و تاریخ مراجعه‌ی 2018/05/03*/
+SELECT phone_number FROM patient join appointment on id
+WHERE visit_number = '93' and appointment_time = '20180503'
+
+--21
+/*شماره عضویت بیماران با نوع بیمه تکمیلی*/
+SELECT id FROM insurance WHERE insurance_type = 'تکمیلی'
