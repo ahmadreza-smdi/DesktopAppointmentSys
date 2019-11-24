@@ -1,19 +1,51 @@
+
 # Appointment System
-## For Doctor's Office Database Implementation
+Implementation for doctor's office appointment system
 
-This project represents the appointment system database implementation for the
-**University of Kashan Database course** of *2018*.
 
-The contributors to this project are as listed.
+## Prerequisites
 
-* **Ahmadreza Samadi** – *Administrator* – [email](mailto:samadi@example.com) – [Gitlab repo](@ahmadreza.smdi)
-* **Vahid Saadat Nejad** – *Developer* – [email](mailto:vahidsanejad@gmail.com) – [Gitlab repo](@vahidsa)
-* **Nozhan Amiri** – *Developer* – [email](mailto:nozhana@gmail.com) – [Gitlab repo](@nozhana)
+What things you need to install the software and how to install them
 
-The Project advisor is **Professor Ahmad Yoosofan**. – [email](yoosofan@kashanu.ac.ir) – [Gitlab repo](@usofan)
+the project is based on python, first step is installing python
 
-For more info, visit the following pages.
-* Contributing guide [CONTRIBUTING.md](CONTRIBUTING.md)
-* Project Walkthrough [WALKTHROUGH.md](WALKTHROUGH.md)
+#### Ubuntu
+```
+sudo apt-get update
+sudo apt-get install python3.6
+```
+#### CentOS
+```
+sudo yum update
+sudo yum install yum-utils
+```
+#### Fedora
+```
+sudo dnf install python36
+```
+#### Arch linux
+```
+packman -S python
+```
+
+## Running the project
+To run the project, you just need to run the main application
+```
+python3 main.py
+```
+
+## Built With
+
+* [Python](https://www.python.org/) - Programming language
+* [SQL](https://www.w3schools.com/sql/) - DB Programming language
+
+
+## Authors
+
+* **Ahmadreza Samadi** – *Administrator* – [email](mailto:ahmadreza.smdi@gmail.com)
+* **Vahid Saadat Nejad** – *Developer* – [email](mailto:vahidsanejad@gmail.com)
+* **Nozhan Amiri** – *Developer* – [email](mailto:nozhana@gmail.com)
+
+The Project advisor is **Professor Ahmad Yoosofan**. – [email](yoosofan@kashanu.ac.ir)
 
 *Thanks for your attention.*
