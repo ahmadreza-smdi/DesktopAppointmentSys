@@ -1,6 +1,6 @@
 
 # Appointment System
-Implementation for doctor's office appointment system
+Desktop Implementation for doctor's office appointment system
 
 
 ## Prerequisites
